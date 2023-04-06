@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   background-color: #202124;
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -16,7 +16,7 @@ main {
 
 main img {
   object-fit: contain;
-  height: 100px;
+  height: 100%;
 }
 
 button:hover {
@@ -141,6 +141,14 @@ button:hover {
   font-size: 13px;
   font-family: arial, sans-serif;
   line-height: 40px;
+}
+
+.footer_section {
+  padding-left: 27px;
+}
+
+.idioma {
+	color: #999DA2;
 }
 
 .footer-izq {
